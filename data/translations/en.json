@@ -1,0 +1,20 @@
+{
+  "menu_title": "Shadow Echo",
+  "play_online": "Play Online",
+  "play_local": "Play Local",
+  "enter_name": "Enter your name",
+  "create_lobby": "Create Lobby",
+  "join_lobby": "Join Lobby",
+  "refresh": "Refresh",
+  "back": "Back",
+  "start_game": "Start Game",
+  "ready": "Ready",
+  "waiting": "Waiting...",
+  "connected_to_server": "Connected to server",
+  "connection_failed": "Connection failed",
+  "available_lobbies": "Available Lobbies",
+  "lobby_info": "Lobby Info",
+  "player_status": "Player Status",
+  "not_ready": "Not Ready",
+  "ready_status": "Ready"
+}

@@ -1,0 +1,79 @@
+{
+  "general": {
+    "day": [
+      "A peaceful morning... but danger always lurks.",
+      "Have you seen the others? Something feels off today.",
+      "Sunlight reveals truth, but it also blinds the careless."
+    ],
+    "night": [
+      "Stay inside. The shadows are not kind.",
+      "You shouldn't be wandering at night...",
+      "Darkness brings out the worst in us all."
+    ]
+  },
+  "protector": {
+    "aware": [
+      "I can sense your light. Protect them, Guardian.",
+      "Your presence gives us hope.",
+      "Please... don't let the darkness consume us."
+    ],
+    "unaware": [
+      "You're not like the others, are you?",
+      "Strange... you feel different somehow.",
+      "I don't know why, but I trust you."
+    ]
+  },
+  "traitor": {
+    "aware": [
+      "You... What have you done?",
+      "Stay away from me, murderer!",
+      "I know what you are. May the gods have mercy."
+    ],
+    "unaware": [
+      "You've got a sharp look in your eyes.",
+      "Something about you unsettles me.",
+      "I hope you're not hiding something dangerous."
+    ]
+  },
+  "chaos": {
+    "aware": [
+      "The air twists around you... chaos incarnate.",
+      "What are you? What *are* you?!",
+      "Your presence is... unnatural."
+    ],
+    "unaware": [
+      "That laugh... did I hear it right?",
+      "You seem to bring misfortune wherever you go.",
+      "Something's wrong with the balance tonight."
+    ]
+  },
+  "suspicion": {
+    "low": [
+      "You seem trustworthy... for now.",
+      "Let's hope you're one of the good ones.",
+      "We all have secrets. Just don’t let yours kill us."
+    ],
+    "high": [
+      "You're hiding something. I can feel it.",
+      "I don't trust you. Stay away.",
+      "Lies... all around us. Especially from you."
+    ]
+  },
+  "events": {
+    "player_died": [
+      "No... not another one.",
+      "They’re gone. We failed them.",
+      "We can’t keep doing this... we're losing hope."
+    ],
+    "barricade_broken": [
+      "The defenses are down!",
+      "Something breached the barricade!",
+      "They’re coming through! Prepare yourself!"
+    ],
+    "npc_poisoned": [
+      "I feel... sick...",
+      "Something's not right... was it you?",
+      "Why... would someone do this to me?"
+    ]
+  }
+}

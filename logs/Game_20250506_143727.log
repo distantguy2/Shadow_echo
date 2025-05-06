@@ -1,0 +1,3 @@
+2025-05-06 14:37:27 - Game - INFO - Logger 'Game' initialized. Log file: logs/Game_20250506_143727.log
+2025-05-06 14:37:27 - Game - INFO - Spawned 3 monsters for day 1
+2025-05-06 14:37:27 - Game - ERROR - Game crashed: 'AutoCombatSystem' object has no attribute 'draw'

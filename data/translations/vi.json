@@ -1,0 +1,20 @@
+{
+  "menu_title": "Tiếng Vọng Bóng Tối",
+  "play_online": "Chơi Online",
+  "play_local": "Chơi Offline",
+  "enter_name": "Nhập tên của bạn",
+  "create_lobby": "Tạo Phòng",
+  "join_lobby": "Vào Phòng",
+  "refresh": "Làm Mới",
+  "back": "Trở Lại",
+  "start_game": "Bắt Đầu Trò Chơi",
+  "ready": "Sẵn Sàng",
+  "waiting": "Đang Chờ...",
+  "connected_to_server": "Đã kết nối máy chủ",
+  "connection_failed": "Kết nối thất bại",
+  "available_lobbies": "Phòng Đang Có",
+  "lobby_info": "Thông Tin Phòng",
+  "player_status": "Trạng Thái Người Chơi",
+  "not_ready": "Chưa Sẵn Sàng",
+  "ready_status": "Đã Sẵn Sàng"
+}

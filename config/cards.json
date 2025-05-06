@@ -1,0 +1,119 @@
+{
+  "universal_cards": {
+    "axe": {
+      "name": "Iron Axe",
+      "symbol": "⎈",
+      "type": "basic",
+      "sin": 1,
+      "grace": 0,
+      "day_effect": {
+        "action": "damage_boost",
+        "value": 20,
+        "duration": 10,
+        "description": "+20% damage for 10 seconds"
+      },
+      "night_effect": {
+        "action": "break_barricade",
+        "value": 1,
+        "description": "Break one barricade"
+      },
+      "rarity": "common"
+    },
+    "medicine": {
+      "name": "Medicine Bag",
+      "symbol": "✚",
+      "type": "basic",
+      "sin": 0,
+      "grace": 1,
+      "day_effect": {
+        "action": "heal",
+        "value": 10,
+        "description": "Heal 10 HP"
+      },
+      "night_effect": {
+        "action": "poison_npc",
+        "value": 1,
+        "description": "Poison target NPC (-5 HP/turn)"
+      },
+      "rarity": "common"
+    },
+    "map": {
+      "name": "Monastery Map",
+      "symbol": "🗺",
+      "type": "basic",
+      "sin": 0,
+      "grace": 0,
+      "day_effect": {
+        "action": "reveal_enemies",
+        "value": 3,
+        "description": "Reveal 3 nearby enemies"
+      },
+      "night_effect": {
+        "action": "find_resources",
+        "value": 1,
+        "description": "Find random resource"
+      },
+      "rarity": "common"
+    }
+  },
+  "blood_cards": {
+    "bloody_axe": {
+      "name": "Bloody Axe",
+      "symbol": "🪓",
+      "type": "blood",
+      "sin": 1,
+      "grace": 0,
+      "day_effect": {
+        "action": "attack_boost",
+        "value": 30,
+        "duration": 5,
+        "description": "+30% ATK in 5s"
+      },
+      "night_effect": {
+        "action": "defense_penalty",
+        "value": -20,
+        "description": "-20% DEF"
+      },
+      "risk_rate": 0.2
+    }
+  },
+  "holy_cards": {
+    "prayer": {
+      "name": "Prayer",
+      "symbol": "🙏",
+      "type": "holy",
+      "sin": 0,
+      "grace": 1,
+      "day_effect": {
+        "action": "group_heal",
+        "value": 10,
+        "range": 5,
+        "description": "Heal 10 HP group"
+      },
+      "night_effect": null,
+      "usage_limit": 3
+    }
+  },
+  "chaos_cards": {
+    "dice": {
+      "name": "Chaos Dice",
+      "symbol": "🎲",
+      "type": "chaos",
+      "sin": 0,
+      "grace": 0,
+      "day_effect": {
+        "action": "random_effect",
+        "effects": [
+          {"effect": "damage_boost", "value": 50, "chance": 30},
+          {"effect": "heal", "value": 30, "chance": 20},
+          {"effect": "confusion", "chance": 20},
+          {"effect": "temp_speed", "value": 2, "chance": 30}
+        ],
+        "description": "Random buff/debuff"
+      },
+      "night_effect": null,
+      "risk_rate": 0.5,
+      "double_reward": true
+    }
+  }
+}

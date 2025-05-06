@@ -1,0 +1,30 @@
+# Core dependencies
+pygame>=2.5.2
+curses-menu>=0.8.0
+pygame-gui>=0.6.9
+
+# AI integration
+openai>=1.0.0  # For Grok API
+
+# Data handling
+numpy>=1.24.0
+pygame-widgets>=1.1.4
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Build tools
+pyinstaller>=5.13.0
+black>=23.9.1
+isort>=5.12.0
+
+# Networking (for multiplayer)
+twisted>=23.8.0
+autobahn>=23.1.2
+
+# UI enhancements
+pygame-textinput>=1.0.1
+
+# Logging
+colorlog>=6.7.0

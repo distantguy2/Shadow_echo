@@ -1,0 +1,9 @@
+2025-05-05 13:15:54 - Game - INFO - Logger 'Game' initialized. Log file: logs/Game_20250505_131554.log
+2025-05-05 13:15:54 - Game - INFO - Dealt initial cards to Alice: ['⎈', '✚', '🗺']
+2025-05-05 13:15:54 - Game - INFO - Dealt initial cards to Bob: ['⎈', '✚', '🗺']
+2025-05-05 13:15:54 - Game - INFO - Dealt initial cards to Charlie: ['⎈', '✚', '🗺']
+2025-05-05 13:15:54 - Game - INFO - Game initialized successfully
+2025-05-05 13:16:54 - Game - INFO - Spawned 3 monsters for day 0
+2025-05-05 13:27:04 - Game - INFO - Spawned 4 monsters for day 1
+2025-05-05 13:37:14 - Game - INFO - Spawned 5 monsters for day 2
+2025-05-05 13:47:24 - Game - INFO - Spawned 6 monsters for day 3
