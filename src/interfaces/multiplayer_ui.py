@@ -2,6 +2,7 @@ import pygame
 import pygame_gui
 import asyncio
 from typing import Optional, List
+from src.utils.font_utils import get_font, render_text
 
 
 class MultiplayerScreen:
@@ -134,8 +135,8 @@ class MultiplayerScreen:
 
     def draw(self):
         self.screen.fill((0, 0, 0))
-        font = pygame.font.Font(None, 72)
-        title = font.render("Shadow Echo", True, (255, 255, 255))
+        title_font = get_font(72)
+        title = render_text(title_font, "Shadow Echo", (255, 255, 255))
         self.screen.blit(title, title.get_rect(center=(self.screen.get_width() // 2, 100)))
 
         if self.current_state == "lobby_list":
@@ -146,19 +147,19 @@ class MultiplayerScreen:
         self.manager.draw_ui(self.screen)
 
     def draw_lobby_list(self):
-        font = pygame.font.Font(None, 36)
-        text = font.render("Available Lobbies", True, (255, 255, 255))
+        header_font = get_font(36)
+        text = render_text(header_font, "Available Lobbies", (255, 255, 255))
         self.screen.blit(text, (300, 120))
 
     def draw_lobby_info(self):
-        font = pygame.font.Font(None, 36)
-        text = font.render("Lobby Info", True, (255, 255, 255))
+        header_font = get_font(36)
+        text = render_text(header_font, "Lobby Info", (255, 255, 255))
         self.screen.blit(text, (50, 50))
         y = 150
-        font_small = pygame.font.Font(None, 28)
+        font_small = get_font(28)
         for i, player in enumerate(self.lobby_players):
             status = "Ready" if player.get("ready", False) else "Not Ready"
-            player_text = font_small.render(f"{player['name']}: {status}", True, (255, 255, 255))
+            player_text = render_text(font_small, f"{player['name']}: {status}", (255, 255, 255))
             self.screen.blit(player_text, (50, y + i * 30))
 
     def update_lobby_list(self, lobbies: List[dict]):

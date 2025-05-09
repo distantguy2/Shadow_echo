@@ -1,10 +1,12 @@
 # Ignore Python virtual environment
 venv/
+venv_new/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.log
+logs/
 
 # VSCode or PyCharm
 .vscode/
@@ -13,3 +15,5 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+**/.claude/settings.local.json
