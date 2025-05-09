@@ -7,10 +7,10 @@ SKILL_LIBRARY = {
     "blood_lust": SkillCard(
         skill_id="blood_lust",
         name="Blood Lust",
-        description="Increase damage after each kill.",
+        description="Increase damage after each kill and heal on kill.",
         icon="🩸",
         type=SkillType.PASSIVE,
-        effect={"damage_bonus": 5, "stackable": True}
+        effect={"damage_bonus": 5, "stackable": True, "heal_per_kill": [10, 15, 20, 25, 30]}
     ),
     "heal_wave": SkillCard(
         skill_id="heal_wave",
