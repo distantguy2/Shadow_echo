@@ -52,6 +52,18 @@ class Card:
     description: str
     effect: dict = field(default_factory=dict)
     icon: str = "?"
+    is_new: bool = False
+    symbol: str = "?"
+    
+    # Additional fields for character cards
+    character_id: str = None
+    passive_skill: dict = field(default_factory=dict)
+    potential_roles: List[str] = field(default_factory=list)
+    
+    # Additional fields for role cards
+    role_id: str = None
+    special_ability: dict = field(default_factory=dict)
+    victory_condition: str = ""
 
 
 @dataclass
